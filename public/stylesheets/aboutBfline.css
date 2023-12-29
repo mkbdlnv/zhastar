@@ -1,0 +1,657 @@
+h1, h2, h3, h4, h5, h6, span, p{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+  min-height: 100vh;
+}
+
+.container-fluid, .container, .col-sm, .col-md, .col, .row{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#aboutBflineHeader {
+  height: 23.5vw;
+  max-height: 342px;
+  background: url("/images/new_images/aboutBfline.svg");
+  position: relative;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 110px;
+  max-width: 1500px;
+}
+
+#aboutBflineHeader h1 div{
+  display: inline;
+}
+
+
+#aboutBflineHeader h1 {
+  position: absolute;
+  top: 57%; 
+  left: 13.5%;
+  font-weight: 900;
+  color: white;
+  font-style: normal;
+  font-size: calc(36 * (100vw /1440));
+}
+
+#aboutBflineHeader h1 span {
+  margin: 0;
+  padding: 0;
+  background: url("/images/new_images/line.svg") no-repeat;
+  display: inline-block;
+  flex-direction: row;
+  background-size: 100%;
+  width: calc(1px + 85 * (100vw /1440));
+  height: calc(1px + 35 * (100vw /1440));
+}
+
+#bflineInfo{
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 3.264%;
+  padding:0 8.33%;
+}
+
+#infoRow .row{
+  margin: auto;
+  padding: 0 0;
+  max-width: 1500px;
+}
+
+#infoRow .row >:not(:first-child){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0.5%;
+  border: solid transparent;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 0px #D5E093;
+  font-size: calc(1px + 19 * (100vw /1440));
+  padding-right: 1%;
+  padding-left: 2%;
+  max-width: 285px;
+  height: 6vw;
+}
+
+#infoRow .row i{
+  color: gray;
+  font-size: calc(20px + 6 * ((100vw   - 920px) / 680));
+  font-weight: 100;
+  width: 10%;
+}
+
+
+
+#bflineInfo h2{
+  font-weight: 700;
+  font-size:calc(16px + 10 * (100vw /1440));
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#bflineDefinition{
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 27px;
+  padding:0 8.33%;
+}
+
+#bflineDefinition p{
+  color:black;
+  line-height: 1.5em;
+  font-size: calc(19.5px + 6 * ((100vw - 920px) / 680));
+  padding: 1% 0;
+}
+
+.greenText{
+  color: #0C6D3C;
+  font-weight: 900;
+  text-align:left;
+}
+
+
+#bflineGoals{
+  max-width: 1500px;
+  margin: auto;
+  padding:0 8.33%;
+}
+
+#bflineGoals h2{ 
+  font-size: calc(16px + 8 * (100vw /1440));
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.5em;
+  text-align: left;
+  line-break: normal;
+  min-height: 108px;
+  display: flex;
+  align-items: end;
+}
+
+
+
+
+#goalDescription1{
+  background: url("/images/new_images/aboutBflineImg1.svg") no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  margin-right: 5px;
+}
+
+
+#goalDescription2{
+  background: url("/images/new_images/aboutBflineImg2.svg") no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  margin-left: 5px;
+}
+
+.goalDescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;  
+  padding: 0;
+}
+.goalDescription p{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: calc(1px + 23 * (100vw /1440));
+  color: white;
+  line-height: 1.5em;
+  font-weight: normal;
+  margin-top: 6.275%;
+}
+
+.goalDescription h3{
+  font-size: calc(1px + 26 * (100vw /1440));
+  color:white;
+  font-weight: 900;
+  margin-top: 14.068%;
+}
+
+.goal{
+  height: 30.985vw;
+  padding-left: 29px;
+  padding-right: 40px;
+  margin-top: 3%;
+} 
+
+#bflineContacts{
+  margin: auto;
+  margin-top: 55px;
+  border-radius: 16px;
+  padding: 0 8.33%;
+  max-width: 1440px;
+}
+
+#bflineContacts .row{
+  background: url("/images/new_images/bflineContactsBackground.svg") no-repeat;
+  background-size: 100%;
+  height: 28.09vw;
+  max-height: 28.09vw;;
+}
+
+.contactsItem h2{
+  font-size:calc(10px + 16 * (100vw /1440));
+  font-weight: 900;
+  margin-bottom: 6.225%;
+}
+
+.contactsItem p{
+  font-size: calc(1px + 23 * (100vw /1440));
+  color: black;
+  line-height: 1.5em;
+}
+
+.contactsItem h3{
+  font-weight: 900;
+  font-size: calc(1px + 23 * (100vw /1440));
+  margin: 1.5% 0;
+}
+
+
+
+.contactsItem{
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+#bflineContacts .col-sm:first-child .contactsItem{
+  padding-left: 8.5%;
+}
+
+.contactsItem i{
+  color: #15854F;
+  font-size: calc(1px + 29 * (100vw /1440));
+}
+
+.contactsItem img, i{
+  width: calc(1px + 25 * (100vw /1440));
+  height: calc(1px + 25 * (100vw /1440));
+  margin-right: 1%;
+}
+
+#bflineVideo{
+  background: url("/images/new_images/bflineVideoBackground.svg") no-repeat;
+  background-size: 100%;
+  height: 47.223vw;
+  max-height: 680px;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 3.2%;
+}
+
+#videoText p{
+  font-size: calc(1px + 23 * (100vw /1440));
+  font-weight: 900;
+  color:black;
+  line-height: 1.5em;
+  padding-left: 20%;
+}
+
+.bflineVideoItem{
+  display: flex;
+  align-items: center;
+}
+
+#video{
+  padding-left: 7%;
+}
+
+#video iframe{
+  width: 49.42vw;
+  height: 27.55vw;
+}
+
+#contactUs{
+  margin: auto;
+  max-width: 1440px;
+  text-align: center;
+  height: 37.64vw;
+  max-height: 37.64vw;
+  display: flex;
+  align-items: center;
+}
+
+.contactForm form{
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm h2{
+  font-size: 4.723vw;
+  font-weight: 900;
+  color: #2B2B2B;
+}
+
+.contactForm form button{
+  font-size: 2.292vw;
+  width: 38.68%;
+  height: 7.29vw;
+  border-radius: 50px;
+  background-color: #0C6D3C;
+  color: white;
+  text-transform:uppercase;
+  font-weight: 900;
+  border: 0px;
+  margin-top: 6.598%;
+}
+
+.contactForm{
+
+  background: url("/images/new_images/curvedArrow.svg") no-repeat;
+  background-position: 86% 90%;
+  background-size: 12%;
+}
+
+
+@media only screen and (max-width: 1183px){
+  .goalDescription h3{
+    font-size: calc(1px + 22 * (100vw /1440));
+  }
+  #bflineGoals h2{ 
+    font-size: calc(1px + 27 * (100vw /1440));
+  }
+
+  #bflineInfo h2{
+    font-size:calc(1px + 25 * (100vw /1440));
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1441px){
+  #aboutBflineHeader h1{
+    font-size: 36px;
+  }
+
+  #aboutBflineHeader h1 span{
+    width: 86px;
+    height: 36px;
+  }
+
+  #bflineInfo{
+    width: 1200px;
+    padding: 0;
+  }
+  #bflineInfo h2{
+    font-size: 26px;
+  }
+
+  .infoText{
+    font-size: 20px;
+  }
+
+
+
+  #bflineDefinition{
+    width: 1200px;
+    padding: 0;
+  }
+
+  #bflineDefinition p{
+    font-size: 24px;
+  }
+
+  #bflineGoals{
+    width: 1200px;
+    padding: 0;
+  }
+
+  .goalDescription p{
+    font-size: 24px;
+    margin-top: 33px;
+  }  
+
+  .goalDescription h3{
+    font-size: 27px;
+    margin-top: 74px;
+  }
+
+  .goal{
+    height: 446px;
+  }
+
+  #bflineGoals h2{ 
+    font-size: 24px;
+  }
+
+  #bflineContacts{
+    width: 1200px;
+    padding: 0;
+  }
+
+
+  #bflineContacts p{
+    font-size: 24px;
+  }
+
+  #bflineContacts h3{
+    font-size: 24px;
+    margin: 9px 0;
+  }
+
+  #bflineContacts h2{
+    font-size: 26px;
+    margin-bottom: 34px;
+  }
+
+  .contactsItem{
+    padding-bottom: 60px;
+    height: 400px;
+  }
+
+  .contactsItem img{
+    width: 26px;
+    height: 26px;
+    margin-right: 4px;
+  }
+
+  .contactsItem i{
+    font-size: 30px;
+    width: 26px;
+    height: 26px;
+    margin-right: 4px;
+  }
+
+  #bflineContacts .row{
+    height: 400px;
+  }
+
+  #video{
+    padding-left: 59px;
+  }
+  
+  #video iframe{
+    width: 709px;
+    height: 396px;
+  }
+
+  #videoText p{
+    font-size: 24px;
+  }
+
+  #contactUs{
+    width: 1440px;
+    height: 542px;
+  }
+
+  .contactForm form button{
+    font-size: 33px;
+    height: 105px;
+  }
+
+  .contactForm h2{
+    font-size: 68px
+  }
+  
+}
+
+
+
+ @media only screen and (max-width: 575.98px){
+  #infoRow .row{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  #infoRow .row >:not(:first-child){
+    height: 64px;
+    width: 63.12%;
+    font-size: calc(12px + 4 * (100vw /768));
+    margin-top: 3%;
+    margin-left: 40%;
+    align-self: end;
+  }
+
+  .infoText{
+    padding-left: 4%;
+  }
+
+  #bflineInfo h2{
+    position: absolute;
+    font-size: calc(1px + 27.8 * (100vw /768));
+    width: 50%;
+    max-width: 269px;
+    right: 52%;
+    margin-top: 4.5%;
+    text-align: start;
+    color: #414141;
+    display: block;
+  }
+
+  #bflineDefinition{
+    padding:0 4.83%;
+  }
+
+  #bflineGoals{
+    padding: 0 4.83%;
+  }
+
+  #goalDescription1{
+    background: url("/images/new_images/aboutBflineMobileImg1.svg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+  }
+
+  #goalDescription2 {
+    background: url("/images/new_images/aboutBflineMobileImg2.svg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+  }
+
+  
+
+  .goalDescription{
+    height: 70vw;
+    margin: 0 !important;
+  }
+
+  #goalDescription2{
+    height: 60vw;
+  }
+
+  #bflineGoals h2{
+    min-height: unset;
+    padding: 0 5%;
+    font-size: calc(1px + 13 * (100vw /414));
+    text-align: center;
+  }
+
+  #goalDescription2 h2{
+    display: none;
+  }
+
+  .goalDescription p{
+    font-size: calc(1px + 13 * (100vw /414));
+  }
+
+  .goalDescription h3{
+    font-size: calc(1px + 15 * (100vw /414));
+  }
+
+  .goal{
+    height: 100%;
+  }
+
+  #bflineContacts .row{
+    background: unset;
+    height: 100vw;
+
+  }
+
+  #bflineContacts{
+    background: url("/images/new_images/bflineContactsBackgroundMobile.svg") no-repeat;
+    background-size: 100%;
+    margin: 8.1% 4.83%;
+    height: 100vw;
+    padding: 0;
+
+  }
+
+  .contactsItem{
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .contactsItem h2{
+    font-size: calc(1px + 15 * (100vw /414));
+    margin-top: 6.68%;
+    padding: 0 6.14%;
+  }
+
+
+  .contactsItem h3{
+    font-size: calc(1px + 13 * (100vw /414));
+    padding: 0 6.14%;
+  }
+
+  .contactsItem p{
+    font-size: calc(1px + 13 * (100vw /414));
+    padding: 0 6.14%;
+  }
+
+  .contactsItem i{
+    color: #15854F;
+    font-size: calc(1px + 19 * (100vw /414));
+  }
+
+  .contactsItem img, i{
+    width: calc(1px + 15 * (100vw /414));
+    height: calc(1px + 15 * (100vw /414));
+    margin-right: 1%;
+  }
+
+  #bflineVideo{
+    background: url("/images/new_images/bflineVideoBackgroundMobile.svg") no-repeat;
+    background-size: 100%;
+    max-height: unset;
+    height: 130vw;
+
+  }
+
+  .bflineVideoItem{
+    height: 65vw;
+    
+  }
+
+  #video{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #video iframe{
+    width: 86vw;
+    height: 50vw;
+    margin-bottom: 8%;
+  }
+ 
+
+  #videoText p{
+    padding: 0 5%;
+    margin: 0;
+    font-size: calc(1px + 15 * (100vw /414)) !important;
+  }
+
+  #aboutBflineHeader{
+    background: url("/images/new_images/aboutBflineMobile.svg") no-repeat;
+    background-size: 100%;
+    height: 47vw;
+  }
+
+  #aboutBflineHeader h1{
+    font-size: calc(1px + 20 * (100vw /414));
+    
+  }
+
+  #aboutBflineHeader h1 span{
+    width: calc(1px + 150 * (100vw /1440));
+  height: calc(1px + 65 * (100vw /1440));
+  }
+
+
+
+} 
+
+
+@media only screen and (max-width: 323.98px){
+  .goal h3{
+    margin-top: 15px;
+  }
+}
+
+
